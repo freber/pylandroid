@@ -1,0 +1,11 @@
+.landroid.conf
+*.egg-info
+*.pyc
+MANIFEST
+.cache
+.tox
+dist
+bin
+include
+lib
+pip-selfcheck.json
