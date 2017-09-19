@@ -105,11 +105,11 @@ class Mower(object):
 			return True
 
 	def __str__(self):
-		return '%s - connected: %r, battery: %s, state: %s, error: %s' % (
+		return 'Host: %s\nConnected: %r\nState: %s\nBattery: %s\nError: %s' % (
 			self.host,
 			self.connected,
-			self.battery,
 			self.state,
+			self.battery,
 			self.error)
 
 def read_credentials():
